@@ -36,11 +36,14 @@
 				<input id="email" type="email">
 				<label for="phone">Phone Number</label>
 				<input id="phone" type="tel">
-				<label for="emailbtn">Email</label>
-                <input type="radio" name="prefferedContact" id="Emailbtn">
-                <label for="phonebtn">Phone</label>
-				<input type="radio" name="prefferedContact" id="Phonebtn">
-				<label for="State">In which state do you live?</label>
+                <fieldset>
+                    <legend>Preferred Contact Method</legend>
+                    <label for="emailbtn">Email</label>
+                    <input type="radio" name="prefferedContact" id="Emailbtn">
+                    <label for="phonebtn">Phone</label>
+				    <input type="radio" name="preferredContact" id="Phonebtn">
+				    <label for="State">In which state do you live?</label>
+                </fieldset>
 				<select name="State" id="state">
 					<option value="Alabama">AL</option>
 					<option value="Alaska">AK</option>
